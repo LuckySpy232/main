@@ -63,3 +63,11 @@ You can hide your "spoilers" for many things just surrounding it in ||
 
 ![spoilers_example.png](https://media.discordapp.net/attachments/1161323865050460270/1161331441486012416/image.png)
 
+## Mentioning
+You can mention stuff using their IDs such as Channels (voice & text), Users/Bots, and roles!
+
+| What               | How ( Make sure to fill in the ${variables} ) | Shown as                                                                                                            |
+|--------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Mention Users/Bots | <@**${id}**>                                  | ![mention.png](https://media.discordapp.net/attachments/1161323865050460270/1161342911527530517/image.png)          |
+| Mention Channels   | <#**${channel_id}**>                          | ![mention_channels.png](https://media.discordapp.net/attachments/1161323865050460270/1161343383638396988/image.png) |
+| Mention Roles      | <@&**${role_id}**>                            | ![mention_roles.png](https://media.discordapp.net/attachments/1161323865050460270/1161344392938922114/image.png)    |
